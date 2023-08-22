@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-18T12:58:54.460Z",
+        "line": 3,
+        "name": "User can get limeroad url",
+        "description": "",
+        "id": "ordering-a-product-in-lime-road;user-can-get-limeroad-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3495119800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User can get limeroad url \"https://www.limeroad.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.step.Step_Definition.user_can_get_limeroad_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-18T12:58:58.110Z",
+        "line": 7,
+        "name": "Selecting a formal shoe for men",
+        "description": "",
+        "id": "ordering-a-product-in-lime-road;selecting-a-formal-shoe-for-men",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5159365300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicking on Shop men button",
+            "match": {
+              "location": "com.step.Step_Definition.clicking_on_shop_men_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4195874600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Moving over men catagory",
+            "match": {
+              "location": "com.step.Step_Definition.moving_over_men_catagory()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 597614000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "select formal shoe from footwear",
+            "match": {
+              "location": "com.step.Step_Definition.select_formal_shoe_from_footwear()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1743721200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicking on filter type high price",
+            "match": {
+              "location": "com.step.Step_Definition.clicking_on_filter_type_high_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1596607400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "clicking the shoe",
+            "match": {
+              "location": "com.step.Step_Definition.clicking_the_shoe()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-18T12:59:11.421Z",
+        "line": 19,
+        "name": "Adding the shoe to cart",
+        "description": "",
+        "id": "ordering-a-product-in-lime-road;adding-the-shoe-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3245162900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Select the size for shoe",
+            "match": {
+              "location": "com.step.Step_Definition.select_the_size_for_shoe()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 309242500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on add to cart button",
+            "match": {
+              "location": "com.step.Step_Definition.click_on_add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 616908100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click on pay now button",
+            "match": {
+              "location": "com.step.Step_Definition.click_on_pay_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7596723600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter your mobile number",
+            "match": {
+              "location": "com.step.Step_Definition.enter_your_mobile_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5015700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "enter your otp",
+            "match": {
+              "location": "com.step.Step_Definition.enter_your_otp()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Ordering a product in Lime Road",
+    "description": "",
+    "id": "ordering-a-product-in-lime-road",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/Feature/lime_road.feature",
+    "tags": []
+  }
+]
